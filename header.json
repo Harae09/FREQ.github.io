@@ -1,7 +1,7 @@
 ﻿{
 "name" : "Freq Project",
 "symbol" : "FQ",
-"data_url" : "https://script.google.com/macros/s/AKfycbywdV_k_smThY1UqKt1SqlQpwxcrGba7yclYrPwBJiNbLIPP5JzPqp8/exec",
+"data_url" : "/score.json",
 "level_order" : ["0","1","2","3","4","5","6","7","8","9","E10","E11","E12"]
 
 }
