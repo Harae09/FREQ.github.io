@@ -39,10 +39,10 @@ function menu(tName){
 
 
 $(document).ready(function(){
-	$.getJSON($("meta[name=bmstable]").attr("content"), function(header2){
-		$.getJSON(header2.data_url, function(information){
-			// header2のsort有無で分岐
-			if(header2["level_order"]){
+	$.getJSON($("meta[name=bmstable]").attr("content"), function(header){
+		$.getJSON(header.data_url, function(information){
+			// headerのsort有無で分岐
+			if(header["level_order"]){
 				makeBMSTable(information,header.symbol,header["level_order"]);
 			} else {
 			makeBMSTable(information,header.symbol);
